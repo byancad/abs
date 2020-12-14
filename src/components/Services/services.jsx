@@ -11,9 +11,36 @@ class Services extends React.Component {
           </div>
           <p className="lead">
             <Row>
-              <Col>column 1</Col>
-              <Col>column 2</Col>
-              <Col>column 4</Col>
+              <Col>
+                <ul>
+                  <li>Additions</li>
+                  <li>Demolitions</li>
+                  <li>Window and Door installations</li>
+                  <li>Roofing</li>
+                  <li>Fascia and soffit repairs</li>
+                  <li>Pressure washing</li>
+                </ul>
+              </Col>
+              <Col>
+                <ul>
+                  <li>Decking</li>
+                  <li>Crown molding</li>
+                  <li>Make readys</li>
+                  <li>Landscaping</li>
+                  <li>Lawn maintenance</li>
+                  <li>Tree trimming</li>
+                </ul>
+              </Col>
+              <Col>
+                <ul>
+                  {" "}
+                  <li>Retaingin walls</li>
+                  <li>Privacy fences</li>
+                  <li>Remodeling</li>
+                  <li>Siding -Hardie plank</li>
+                  <li>Painting -interior and exterior</li>
+                </ul>
+              </Col>
             </Row>
           </p>
         </Card>
